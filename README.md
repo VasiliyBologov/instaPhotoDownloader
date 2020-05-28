@@ -1,6 +1,7 @@
 # instaPhotoDownloader
 This is python script which will download all photos of your account or any public account.  
 Please download the following packages first
+
 1.selenium chrome webdriver
 [download instruction]
 
