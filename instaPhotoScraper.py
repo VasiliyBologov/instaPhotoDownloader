@@ -4,9 +4,7 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
-import requests
 import time
-import urllib
 import os
 
 WINDOW_SIZE = "1920,1080"
