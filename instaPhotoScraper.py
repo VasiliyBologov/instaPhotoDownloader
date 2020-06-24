@@ -112,7 +112,7 @@ class InstaphotoScrapper:
 				imgg = soup.find("div",{"class":"KL4Bh"})
 				fileName = title+".jpg"
 				try:
-					urllib.request.urlretrieve(imgg.find('img')['src'],fileName)
+					urlretrieve(imgg.find('img')['src'],fileName)
 					print(fileName+" succesfully Download.")
 				except Exception as e:
 					print(e)
